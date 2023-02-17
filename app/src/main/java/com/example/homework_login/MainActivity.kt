@@ -60,6 +60,7 @@ class MainActivity : AppCompatActivity() {
         if (name.equals("") || password.equals("")) {
             Toast.makeText(this, "Fill the form fully", Toast.LENGTH_SHORT).show()
         }
-// h
 
+
+}
 }
