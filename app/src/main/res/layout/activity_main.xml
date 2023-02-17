@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="18dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:textAllCaps="true"
+        android:fontFamily="@font/sf_pro_900"
+        android:textColor="#000000"
+        android:textSize="32sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:hint="Email"
+        android:textColorHint="#000000"
+        app:boxStrokeColor="#FFF">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nameInput"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/sf_pro_400"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:textColorHint="#000000"
+        app:boxStrokeColor="#FFFFFF"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="#FF48484A">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordInput"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/sf_pro_400"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/signUp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#000000"
+        android:fontFamily="@font/sf_pro_600"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:cornerRadius="0dp" />
+
+
+
+</LinearLayout>
